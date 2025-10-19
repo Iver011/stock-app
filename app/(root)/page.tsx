@@ -3,9 +3,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <Button> HACER CLICK</Button>
-    </div>
+    <div className="flex min-h-screen home-wrapper items-center">Home</div>
   );
 };
 export default Home;

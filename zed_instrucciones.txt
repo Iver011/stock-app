@@ -1,0 +1,4 @@
+1. Instalamos npx create-next-app@latest .
+2. instalamos dependencias para mayor facilidad npx shadcn@init
+3. Usaremos para esto CodeRabbit y Inngest
+4. Instalamos componentes usando shadcn solo los necesarios
