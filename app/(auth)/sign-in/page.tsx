@@ -47,15 +47,15 @@ const SignIn = () => {
           register={register}
           error={errors.email}
           validation={{
-            required: "Email is required",
+            required: "Correo requerido",
             pattern: /^\w+@\w+\.\w+$/,
           }}
         />
 
         <InputField
           name="password"
-          label="Password"
-          placeholder="Enter your password"
+          label="Contraseña"
+          placeholder="Ingresa tu Contraseña"
           type="password"
           register={register}
           error={errors.password}
@@ -67,12 +67,12 @@ const SignIn = () => {
           disabled={isSubmitting}
           className="yellow-btn w-full mt-5"
         >
-          {isSubmitting ? "Signing In" : "Sign In"}
+          {isSubmitting ? "Iniciando Sesion" : "Iniciar Sesion"}
         </Button>
 
         <FooterLink
-          text="Don't have an account?"
-          linkText="Create an account"
+          text="No tienes una cuenta?"
+          linkText="Crear una cuenta"
           href="/sign-up"
         />
       </form>
