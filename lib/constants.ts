@@ -6,24 +6,24 @@ export const NAV_ITEMS = [
 
 // Sign-up form select options
 export const INVESTMENT_GOALS = [
-  { value: "Growth", label: "Growth" },
-  { value: "Income", label: "Income" },
-  { value: "Balanced", label: "Balanced" },
-  { value: "Conservative", label: "Conservative" },
+  { value: "Growth", label: "Crecimiento" },
+  { value: "Income", label: "Ingresos" },
+  { value: "Balanced", label: "Balanceado" },
+  { value: "Conservative", label: "Conservador" },
 ];
 
 export const RISK_TOLERANCE_OPTIONS = [
-  { value: "Low", label: "Low" },
-  { value: "Medium", label: "Medium" },
-  { value: "High", label: "High" },
+  { value: "Low", label: "Bajo" },
+  { value: "Medium", label: "Medio" },
+  { value: "High", label: "Alto" },
 ];
 
 export const PREFERRED_INDUSTRIES = [
-  { value: "Technology", label: "Technology" },
-  { value: "Healthcare", label: "Healthcare" },
-  { value: "Finance", label: "Finance" },
-  { value: "Energy", label: "Energy" },
-  { value: "Consumer Goods", label: "Consumer Goods" },
+  { value: "Technology", label: "Tecnologia" },
+  { value: "Healthcare", label: "Salud" },
+  { value: "Finance", label: "Finanzas" },
+  { value: "Energy", label: "Energia" },
+  { value: "Consumer Goods", label: "Bienes de Consumo" },
 ];
 
 export const ALERT_TYPE_OPTIONS = [

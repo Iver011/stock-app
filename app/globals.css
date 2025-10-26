@@ -486,3 +486,6 @@
 .scrollbar-hide-default::-webkit-scrollbar-thumb:hover {
     background-color: #9095a1;
 }
+.font-emoji {
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
+}
